@@ -1,0 +1,19 @@
+{
+  "type": "Textured 3D relief meshes",
+  "frames": 96,
+  "seconds": 4.08,
+  "crop": [
+    105,
+    139,
+    378,
+    476
+  ],
+  "lighting": [
+    "ivory key",
+    "amber rim",
+    "olive fill"
+  ],
+  "camera": "Perspective orbital camera",
+  "timing": "fast burst, suspended drift, fast return",
+  "asset": "alfredo-3d-relief.gif"
+}

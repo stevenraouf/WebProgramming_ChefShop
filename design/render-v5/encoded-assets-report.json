@@ -1,0 +1,74 @@
+[
+  {
+    "meal": "alfredo",
+    "frames": 84,
+    "duration_ms": 4080,
+    "loop": 0
+  },
+  {
+    "meal": "bolognese",
+    "frames": 84,
+    "duration_ms": 4080,
+    "loop": 0
+  },
+  {
+    "meal": "ful",
+    "frames": 84,
+    "duration_ms": 4080,
+    "loop": 0
+  },
+  {
+    "meal": "gyro",
+    "frames": 84,
+    "duration_ms": 4080,
+    "loop": 0
+  },
+  {
+    "meal": "halloumi",
+    "frames": 84,
+    "duration_ms": 4080,
+    "loop": 0
+  },
+  {
+    "meal": "hawawshi",
+    "frames": 84,
+    "duration_ms": 4080,
+    "loop": 0
+  },
+  {
+    "meal": "liver",
+    "frames": 84,
+    "duration_ms": 4080,
+    "loop": 0
+  },
+  {
+    "meal": "pesto",
+    "frames": 84,
+    "duration_ms": 4080,
+    "loop": 0
+  },
+  {
+    "meal": "pizza",
+    "frames": 84,
+    "duration_ms": 4080,
+    "loop": 0
+  },
+  {
+    "meal": "souvlaki",
+    "frames": 84,
+    "duration_ms": 4080,
+    "loop": 0
+  },
+  {
+    "meal": "spanakopita",
+    "frames": 84,
+    "duration_ms": 4080,
+    "loop": 0
+  },
+  {
+    "meal": "taameya",
+    "frames": 84,
+    "duration_ms": 4080,
+    "loop": 0
+  }
+]

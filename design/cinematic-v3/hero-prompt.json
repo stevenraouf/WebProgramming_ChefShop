@@ -1,0 +1,7 @@
+{
+  "tool": "built-in image_gen",
+  "transparent_background": true,
+  "prompt": "Use case: product-mockup. Asset: a premium restaurant website hero food cutout, no UI. Create a single exceptionally photoreal cinematic studio render of silky fettuccine Alfredo in a shallow black ceramic plate, viewed from an elevated three-quarter angle. An elegant loose swirl of fettuccine is lifted above the plate, with a restrained few parmesan shavings and tiny basil leaves suspended in the air. Rich real food texture, delicate steam, glistening butter, black pepper, appetizing golden highlights. Physically believable food photography / high-end CGI product advertising quality. Warm ember-orange rim light from rear right, soft ivory key light from upper left, deep controlled shadows. The composition is centered and vertically compact, occupying the middle 75% of a portrait canvas, with generous transparent margin around every edge. Entire plate visible. Genuine transparent alpha background; no table, no background, no lettering, no logo, no tools, no hands, no extra dishes, no rectangular glow baked into the background. No cartoon styling, no plastic food. A few floating ingredients can break the silhouette naturally. Dark plate should retain legible warm edge highlights for use on a charcoal background.",
+  "asset": "alfredo-hero.png",
+  "imageHash": "21c5a3d085d81951ccd5dcb57e78457e12e8a929"
+}

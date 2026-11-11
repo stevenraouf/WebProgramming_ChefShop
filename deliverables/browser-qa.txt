@@ -1,0 +1,109 @@
+ChefShop — Milestone 1 browser QA
+Date: 9 November 2026
+Application: local Angular application at http://localhost:4200/
+
+Scope and environment
+---------------------
+Interactive checks used the Chromium preview integrated into VS Code. Layouts
+were reviewed with emulated viewports of 390 x 844, 768 x 1024 and 1440 x 900,
+plus the normal desktop preview. These were browser emulation checks, not tests
+on physical phones or a complete Safari/Firefox/browser compatibility matrix.
+All accounts, purchases, card details and financial changes used synthetic demo
+data. No payment, bank transfer or external message was sent.
+
+Verified workflows
+------------------
+PASS — Shopping: category/search filtering, Pesto search returning one product,
+product information, related ingredients/tools, quantity updates and add-to-cart
+feedback. Pesto quantity two totalled EGP 330; reducing to one totalled EGP 165.
+Alfredo Regular -> Large updated the price from EGP 160 to EGP 200, and that
+option and price appeared correctly in the cart.
+
+PASS — Checkout: missing required fields were rejected; delivery exposed address
+fields and added EGP 30; campus pickup removed those fields and the delivery fee.
+Selected pickup time and demo cash payment produced order CS-315C8AB9 for
+EGP 165 with the correct confirmation details and an empty cart afterwards.
+
+PASS — Authentication/profile: incorrect credentials were rejected; signup
+created a Student account; profile name/preferences were editable and saved;
+the saved payment method showed only a masked card ending in 4242. Reduced
+motion displayed a still hero image instead of mounting the autoplaying video.
+
+PASS — Authorization: Student Alex could access only his two fee records and
+was denied Payroll. Accounting was denied Users/Admin. Admin could open Users;
+self-disable and self-role-change controls were disabled. A disposable QA
+account was disabled and re-enabled. Chef Nadia saw only her own pay and event
+allowances and was denied Department Budgets. A guest visiting Profile was
+redirected to Login with the return URL preserved.
+
+PASS — Student fees: a valid EGP 100 partial payment generated receipt
+MF-C073E04A and reduced INV-2026-001's outstanding balance from 2400 to 2300.
+Accounting created QA invoice INV-636BC36E for EGP 100, marked a demo campus
+cash payment, and saw Paid / balance zero and payment history MF-DED0C8C3.
+
+PASS — Payroll: monthly salary calculations, salary edits, a manual deduction,
+event approval and the downloaded JSON report were checked. Nadia's salary
+change from 14400 to 14500 added 100 to net pay. A 50 deduction reduced net pay
+by 50. Approving Winter Showcase added 1600 to total allowances, removed its
+approval action and updated Nadia's own workspace. Final QA payroll total was
+EGP 48050; Nadia's final net was EGP 17050.
+
+PASS — Actual JSON download: qa-payroll-2026-11.json was downloaded through the
+browser Save As dialog and parsed from disk. Its immutable initial snapshot
+contains month 2026-11, three staff rows, total EGP 46400 and row nets summing
+to EGP 46400. This snapshot was generated before the later QA salary/deduction/
+event changes, so it intentionally differs from the final QA payroll total.
+
+PASS — Department budgets: created a Kitchen ingredient expense for EGP 123,
+searched for it, edited it to EGP 124, and verified ledger, totals and chart
+updates. Total expenses became EGP 90524; net before payroll became EGP 95876.
+The form's displayed category now matches the stored form value.
+
+PASS — Charts: department and product-profit charts rendered, with matching
+accessible data tables. Product profit values included Bolognese 16480,
+Alfredo 11400, Paprika 9920, Knife Kit 9720 and Uniform 8280 (EGP).
+
+PASS — Persistence: after a browser reload the Accounting session, cart with
+one Large Alfredo at EGP 200, and light theme were retained. This exercises
+session storage, local storage and the theme cookie respectively.
+
+PASS — Responsive/accessibility review: mobile navigation, Home, product,
+profile, cart, checkout and payroll; tablet fee, invoice, budget and event
+layouts; desktop Home and profitability chart. Dark/light themes and keyboard
+focus were reviewed. The keyboard skip link now focuses main content without
+changing the hash route; the next Tab reaches the Discover menu action.
+
+Issues fixed during this QA
+--------------------------
+1. Respect reduced-motion preferences by rendering a still hero image.
+2. Bind dynamic select option values explicitly, including budget categories.
+3. Fix mobile table captions and row headings; prevent currency values from
+   breaking into individual characters; improve event card column sizing.
+4. Improve light-theme role/status badge contrast and logo visibility.
+5. Keep the skip link from being interpreted as an Angular hash route.
+6. Display the singular product label when search returns one result.
+Regression tests were added for reduced motion, budget category selection and
+the skip-link behavior.
+
+Final automated verification
+----------------------------
+PASS — npm test: 36 of 36 Jasmine/Karma tests passed in Chrome Headless
+115.0.5790.171. The launcher emitted a shutdown timeout warning after all tests
+passed and terminated the browser process. Full output: unit-tests.log.
+PASS — npm run build: production bundle generation completed successfully.
+Full output: production-build.log.
+
+Local demo state after QA
+-------------------------
+The browser was left signed out on Home, in dark mode with an empty cart.
+The local demo database still contains the synthetic order, partial fee payment,
+QA Student Updated account (qa_nov09, Student, active), paid QA invoice, Kitchen
+expense of 124, Nadia's salary increase of 100, deduction of 50, and the approved
+Winter Showcase event. Seed source data was not changed by those browser edits.
+
+Limitations and remaining milestone work
+---------------------------------------
+No blocking issue was observed in the covered workflows. This is a frontend
+demo, with client-side authentication/authorization rather than backend security.
+Browser QA does not complete the three-page report, final source packaging,
+hosting or submission. Those deliverables are outside this QA item.

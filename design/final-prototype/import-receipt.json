@@ -1,0 +1,18 @@
+{
+  "instructions": "Imported source and preview/publish configuration into https://www.figma.com/design/MPTpr6xUM7RwoMHfkYh8OV?node-id=132-1075&autoplay-code-preview=132-1075&code-import-attempt-id=ba78810b4050ad52e916805517110854b33151d04432aea8370eead5eee3f99f&code-import-node-id=132-1075&code-import-surface=code_layer. No Code agent ran. Open the file to start the preview. Dependency installation, preview readiness, and publishing have not been verified. Edit the imported app in Figma.",
+  "status": "imported",
+  "fileKey": "MPTpr6xUM7RwoMHfkYh8OV",
+  "fileUrl": "https://www.figma.com/design/MPTpr6xUM7RwoMHfkYh8OV?node-id=132-1075&autoplay-code-preview=132-1075&code-import-attempt-id=ba78810b4050ad52e916805517110854b33151d04432aea8370eead5eee3f99f&code-import-node-id=132-1075&code-import-surface=code_layer",
+  "makeUrl": "https://www.figma.com/design/MPTpr6xUM7RwoMHfkYh8OV?node-id=132-1075&autoplay-code-preview=132-1075&code-import-attempt-id=ba78810b4050ad52e916805517110854b33151d04432aea8370eead5eee3f99f&code-import-node-id=132-1075&code-import-surface=code_layer",
+  "nodeId": "132:1075",
+  "makeNodeId": "132:1075",
+  "importReceipt": {
+    "seedId": "ea7c9192f8111b73806da0aba1a222af01d921743703cb9078386bfb17da9dea",
+    "gitRef": "main",
+    "status": "imported",
+    "repairContextAvailable": false
+  },
+  "preview": {
+    "status": "not_verified"
+  }
+}

@@ -1,0 +1,1 @@
+const fs=require('node:fs'),path=require('node:path');let s=fs.readFileSync(path.join(__dirname,'finalize.js'),'utf8');s=s.replace('__MEDIA_METADATA__',fs.readFileSync(path.join(__dirname,'encoded-assets-report.json'),'utf8'));fs.writeFileSync(path.join(__dirname,'../figma-plugin/code.js'),s);

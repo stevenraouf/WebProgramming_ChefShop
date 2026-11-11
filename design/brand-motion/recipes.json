@@ -1,0 +1,128 @@
+[
+  {
+    "key": "alfredo",
+    "name": "Pasta Alfredo",
+    "region": "Italy",
+    "labels": [
+      "Parsley & black pepper",
+      "Parmesan shavings",
+      "Creamy fettuccine",
+      "Served in a warm bowl"
+    ],
+    "bounds": [
+      0,
+      440,
+      730,
+      1100,
+      1536
+    ],
+    "rootId": "6:686",
+    "hash": "6fb7011e4ae9cb6817b48b36ef678af84ae76666",
+    "assetNodeId": "24:211"
+  },
+  {
+    "key": "bolognese",
+    "name": "Pasta Bolognese",
+    "region": "Italy",
+    "labels": [
+      "Basil & parmesan",
+      "Tomato & beef ragù",
+      "Golden spaghetti",
+      "Served in a warm bowl"
+    ],
+    "bounds": [
+      0,
+      380,
+      715,
+      1060,
+      1536
+    ],
+    "rootId": "19:2969",
+    "hash": "f8763f205236968f753f3fc5dd02dfe214dcb345",
+    "assetNodeId": "24:209"
+  },
+  {
+    "key": "pesto",
+    "name": "Pesto Pasta",
+    "region": "Italy",
+    "labels": [
+      "Basil & pine nuts",
+      "Parmesan shavings",
+      "Pesto-coated penne",
+      "Served in a warm bowl"
+    ],
+    "bounds": [
+      0,
+      440,
+      740,
+      1100,
+      1536
+    ],
+    "rootId": "19:3052",
+    "hash": "d4c49959e431fd01dc75c8f92af368129991a02a",
+    "assetNodeId": "24:212"
+  },
+  {
+    "key": "pizza",
+    "name": "Margherita Pizza",
+    "region": "Italy",
+    "labels": [
+      "Fresh basil",
+      "Mozzarella",
+      "Tomato sauce",
+      "Golden pizza crust"
+    ],
+    "bounds": [
+      0,
+      440,
+      780,
+      1120,
+      1536
+    ],
+    "rootId": "19:2729",
+    "hash": "98ef987d4608edd4ece96af14ea785b738479a15",
+    "assetNodeId": "24:208"
+  },
+  {
+    "key": "souvlaki",
+    "name": "Chicken Souvlaki Pita",
+    "region": "Greece",
+    "labels": [
+      "Tomato, onion & parsley",
+      "Grilled chicken",
+      "Cucumber tzatziki",
+      "Soft grilled pita"
+    ],
+    "bounds": [
+      0,
+      470,
+      800,
+      1100,
+      1536
+    ],
+    "rootId": "19:2812",
+    "hash": "8b7e50a3fb36ab3d8d496b3728b0b218b17a0801",
+    "assetNodeId": "24:207"
+  },
+  {
+    "key": "taameya",
+    "name": "Taameya Sandwich",
+    "region": "Egypt",
+    "labels": [
+      "Salad & pickles",
+      "Fava bean taameya",
+      "Tahini sauce",
+      "Baladi bread"
+    ],
+    "bounds": [
+      0,
+      455,
+      820,
+      1100,
+      1536
+    ],
+    "rootId": "19:2886",
+    "hash": "3195bf22b3a403c716fc9ccc360ea145676832c3",
+    "assetNodeId": "24:210"
+  }
+]

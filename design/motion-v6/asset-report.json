@@ -1,0 +1,74 @@
+[
+  {
+    "key": "alfredo",
+    "parts": 4,
+    "wholeVertices": 81872,
+    "naturalEnd": true
+  },
+  {
+    "key": "bolognese",
+    "parts": 4,
+    "wholeVertices": 79254,
+    "naturalEnd": true
+  },
+  {
+    "key": "pesto",
+    "parts": 4,
+    "wholeVertices": 66795,
+    "naturalEnd": true
+  },
+  {
+    "key": "pizza",
+    "parts": 4,
+    "wholeVertices": 78592,
+    "naturalEnd": true
+  },
+  {
+    "key": "souvlaki",
+    "parts": 4,
+    "wholeVertices": 74896,
+    "naturalEnd": true
+  },
+  {
+    "key": "spanakopita",
+    "parts": 4,
+    "wholeVertices": 63948,
+    "naturalEnd": true
+  },
+  {
+    "key": "gyro",
+    "parts": 4,
+    "wholeVertices": 69549,
+    "naturalEnd": true
+  },
+  {
+    "key": "halloumi",
+    "parts": 4,
+    "wholeVertices": 68672,
+    "naturalEnd": true
+  },
+  {
+    "key": "taameya",
+    "parts": 4,
+    "wholeVertices": 78683,
+    "naturalEnd": true
+  },
+  {
+    "key": "ful",
+    "parts": 4,
+    "wholeVertices": 64930,
+    "naturalEnd": true
+  },
+  {
+    "key": "hawawshi",
+    "parts": 4,
+    "wholeVertices": 64842,
+    "naturalEnd": true
+  },
+  {
+    "key": "liver",
+    "parts": 4,
+    "wholeVertices": 59616,
+    "naturalEnd": true
+  }
+]

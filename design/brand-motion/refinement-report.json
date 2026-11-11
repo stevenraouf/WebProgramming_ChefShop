@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "fileKey": "MPTpr6xUM7RwoMHfkYh8OV",
+  "page": "0:1",
+  "originalMobileFrames": 19,
+  "viewport": {"width": 402, "height": 874},
+  "guidance": "ui-ux-pro-max-skill-main/.claude/skills/ui-ux-pro-max/SKILL.md",
+  "uiChanges": ["Readable body and secondary text styles", "24 px content rhythm", "44 px search and cart targets", "48 px minimum field height", "Larger ingredient captions and still-view target", "Ingredient badge contrast repaired"],
+  "prototype": {"mealFamilies": 6, "statesPerFamily": 6, "connectionsPerFamily": 11, "liftSeconds": 0.16, "spreadSeconds": 0.52, "settleSeconds": 0.22, "returnSeconds": 0.58, "stillView": "instant", "easing": "Custom arrival, departure and settle cubic bezier curves"},
+  "nativeMotion": {"durationSeconds": 3.4, "tracksPerMeal": 24, "animatedNodesPerMeal": 10, "totalTracks": 144, "effects": ["55 ms ingredient stagger", "Decelerating separation", "Scale 0.94 to 1", "Finished-dish zoom 1 to 1.025", "Label opacity and position reveal", "Reassembly and photograph return"], "frames": [
+    {"id":"38:2244","meal":"Pasta Alfredo"},
+    {"id":"38:2529","meal":"Pasta Bolognese"},
+    {"id":"38:2716","meal":"Pesto Pasta"},
+    {"id":"38:2903","meal":"Margherita Pizza"},
+    {"id":"38:3090","meal":"Chicken Souvlaki Pita"},
+    {"id":"38:3277","meal":"Taameya Sandwich"}
+  ]},
+  "verification": ["All 19 original dimensions retained", "No header overflow reported", "Six states and 11 connections verified in each meal family", "Six native timelines with 24 tracks each read back", "Alfredo native timeline played in Figma Motion mode", "Native start and separated phases visually reviewed", "Refined storefront and meal layouts visually reviewed"],
+  "problems": []
+}

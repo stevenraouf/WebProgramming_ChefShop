@@ -1,0 +1,8 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Frame">
+<path id="Vector" d="M17 8V23C17 31 24 35 32 35C40 35 47 31 47 23V8M32 9V34" stroke-width="3.4" stroke-linecap="round" stroke="#F5EDDD"/>
+<path id="Vector_2" d="M32 35V48C32 56 43 58 46 50C49 43 40 39 37 45C35 49 40 51 42 47" stroke-width="3.4" stroke-linecap="round" stroke="#E9A065"/>
+<path id="Vector_3" d="M32 12C26 12 24 7 25 4C29 4 32 7 32 12ZM32 12C38 12 40 7 39 4C35 4 32 7 32 12Z" stroke-width="2" stroke-linejoin="round" stroke="#E9A065"/>
+<path id="Vector_4" d="M47 20C53 18 55 13 53 10C48 11 45 15 47 20ZM17 20C11 18 9 13 11 10C16 11 19 15 17 20Z" fill="#C7D3B0"/>
+</g>
+</svg>

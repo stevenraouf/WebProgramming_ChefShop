@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-09",
+  "fileKey": "MPTpr6xUM7RwoMHfkYh8OV",
+  "finalPage": "126:5895",
+  "workflow": "126:15814",
+  "completePrototype": "132:1075",
+  "coreScreens": 19,
+  "supportingFramesAndStates": 91,
+  "catalog": {"meals":12,"spices":12,"tools":12,"studentEssentials":2},
+  "phoneViewport": {"width":402,"height":874,"coreScreensPassed":19,"livePrototypePassed":true},
+  "preview": {"imported":true,"observedRunningInFigma":true,"mobileVisualReview":true,"cssMobileImageFixSavedInFigma":true},
+  "observedInteractions": ["Shop navigation and 12-meal catalog","Alfredo large option changes unit price to EGP 200","Quantity 2 changes purchase total to EGP 400","Adding to bag preserves option and quantity","Cart quantity reduction recalculates to EGP 200","Typed contact fields persist","Delivery shows address field and adds EGP 30","Campus pickup removes delivery fee","Pickup time can be selected"],
+  "localTests": {"modelTest":"passed","coverage":["Separate product options","Cart additions, edits and removal","Quantity limits","Delivery totals","Event approval and payroll reconciliation"]},
+  "limits": ["Orders, payments, module fees, approvals and payroll are simulated","Native screen walkthrough has plan-limited state controls; complete stateful behavior is in the runnable Code Layer","Food animation uses photo-derived 3D relief, not Unreal Engine volumetric models","Not every screen and device has been exhaustively tested"]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "PAYROLL-0119D7B0",
+  "month": "2026-11",
+  "created": "2026-11-09T01:54:36.416Z",
+  "currency": "EGP",
+  "scope": "Frontend demo; no bank transfer",
+  "total": 46400,
+  "rows": [
+    {
+      "staffId": "chef-nadia",
+      "name": "Nadia Hassan",
+      "base": 14400,
+      "eventAllowance": 1600,
+      "manualAllowance": 0,
+      "deductions": 0,
+      "gross": 16000,
+      "net": 16000
+    },
+    {
+      "staffId": "chef-omar",
+      "name": "Omar Ali",
+      "base": 14400,
+      "eventAllowance": 1100,
+      "manualAllowance": 0,
+      "deductions": 0,
+      "gross": 15500,
+      "net": 15500
+    },
+    {
+      "staffId": "chef-lina",
+      "name": "Lina Samir",
+      "base": 14400,
+      "eventAllowance": 500,
+      "manualAllowance": 0,
+      "deductions": 0,
+      "gross": 14900,
+      "net": 14900
+    }
+  ]
+}

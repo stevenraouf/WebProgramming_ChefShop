@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "fileKey": "MPTpr6xUM7RwoMHfkYh8OV",
+  "page": "0:1",
+  "board": "23:652",
+  "preview": "23:1455",
+  "logoMaster": "23:391",
+  "emblem": "23:383",
+  "originalMobileFrames": 19,
+  "mobileViewport": { "width": 402, "height": 874 },
+  "updatedLogoHeadersIncludingPreview": 20,
+  "legacyCustomerHeaders": 0,
+  "statesPerMeal": ["Assembled", "Exploded", "Still"],
+  "separateImageLayersPerState": 4,
+  "transitions": { "explode": { "type": "SMART_ANIMATE", "seconds": 0.72 }, "reassemble": { "type": "SMART_ANIMATE", "seconds": 0.58 }, "stillView": "instant" },
+  "mealAnimations": [
+    { "name": "Pasta Alfredo", "componentSet": "23:753", "variants": ["23:681", "23:705", "23:729"] },
+    { "name": "Pasta Bolognese", "componentSet": "23:882", "variants": ["23:810", "23:834", "23:858"] },
+    { "name": "Pesto Pasta", "componentSet": "23:1011", "variants": ["23:939", "23:963", "23:987"] },
+    { "name": "Margherita Pizza", "componentSet": "23:1140", "variants": ["23:1068", "23:1092", "23:1116"] },
+    { "name": "Chicken Souvlaki Pita", "componentSet": "23:1269", "variants": ["23:1197", "23:1221", "23:1245"] },
+    { "name": "Taameya Sandwich", "componentSet": "23:1398", "variants": ["23:1326", "23:1350", "23:1374"] }
+  ],
+  "verification": {
+    "structuralAudit": "Six component sets; three states each; four image strata per state; connected forward, reverse and instant controls; 19 original phone frames retained.",
+    "livePrototype": "Alfredo explode, reassemble and instant still view exercised successfully in Figma presentation mode.",
+    "visualReview": "All six exploded meal designs and regional wordmark reviewed together on the native Figma collection board after the final label change."
+  },
+  "problems": []
+}

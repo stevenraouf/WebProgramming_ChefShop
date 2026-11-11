@@ -1,0 +1,110 @@
+[
+  {
+    "meal": "alfredo",
+    "file": "renders\\alfredo\\alfredo-relief.blend",
+    "meshes": 4,
+    "animatedObjects": 5,
+    "frames": 96,
+    "fps": 24,
+    "packedImages": 1
+  },
+  {
+    "meal": "bolognese",
+    "file": "renders\\bolognese\\bolognese-relief.blend",
+    "meshes": 4,
+    "animatedObjects": 5,
+    "frames": 96,
+    "fps": 24,
+    "packedImages": 1
+  },
+  {
+    "meal": "ful",
+    "file": "renders\\ful\\ful-relief.blend",
+    "meshes": 4,
+    "animatedObjects": 5,
+    "frames": 96,
+    "fps": 24,
+    "packedImages": 1
+  },
+  {
+    "meal": "gyro",
+    "file": "renders\\gyro\\gyro-relief.blend",
+    "meshes": 4,
+    "animatedObjects": 5,
+    "frames": 96,
+    "fps": 24,
+    "packedImages": 1
+  },
+  {
+    "meal": "halloumi",
+    "file": "renders\\halloumi\\halloumi-relief.blend",
+    "meshes": 4,
+    "animatedObjects": 5,
+    "frames": 96,
+    "fps": 24,
+    "packedImages": 1
+  },
+  {
+    "meal": "hawawshi",
+    "file": "renders\\hawawshi\\hawawshi-relief.blend",
+    "meshes": 4,
+    "animatedObjects": 5,
+    "frames": 96,
+    "fps": 24,
+    "packedImages": 1
+  },
+  {
+    "meal": "liver",
+    "file": "renders\\liver\\liver-relief.blend",
+    "meshes": 4,
+    "animatedObjects": 5,
+    "frames": 96,
+    "fps": 24,
+    "packedImages": 1
+  },
+  {
+    "meal": "pesto",
+    "file": "renders\\pesto\\pesto-relief.blend",
+    "meshes": 4,
+    "animatedObjects": 5,
+    "frames": 96,
+    "fps": 24,
+    "packedImages": 1
+  },
+  {
+    "meal": "pizza",
+    "file": "renders\\pizza\\pizza-relief.blend",
+    "meshes": 4,
+    "animatedObjects": 5,
+    "frames": 96,
+    "fps": 24,
+    "packedImages": 1
+  },
+  {
+    "meal": "souvlaki",
+    "file": "renders\\souvlaki\\souvlaki-relief.blend",
+    "meshes": 4,
+    "animatedObjects": 5,
+    "frames": 96,
+    "fps": 24,
+    "packedImages": 1
+  },
+  {
+    "meal": "spanakopita",
+    "file": "renders\\spanakopita\\spanakopita-relief.blend",
+    "meshes": 4,
+    "animatedObjects": 5,
+    "frames": 96,
+    "fps": 24,
+    "packedImages": 1
+  },
+  {
+    "meal": "taameya",
+    "file": "renders\\taameya\\taameya-relief.blend",
+    "meshes": 4,
+    "animatedObjects": 5,
+    "frames": 96,
+    "fps": 24,
+    "packedImages": 1
+  }
+]

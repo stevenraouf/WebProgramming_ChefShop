@@ -1,0 +1,713 @@
+{
+  "page": "0:1",
+  "roots": [
+    {
+      "id": "6:58",
+      "name": "01 · Home · iPhone 17",
+      "photos": [
+        {
+          "id": "19:2156",
+          "name": "Photo / hero",
+          "hash": "f060fa57765a19b6f91fce667c9b47e96896f0a3"
+        },
+        {
+          "id": "19:2169",
+          "name": "Photo / saucepan",
+          "hash": "452a765832684adf6881d59480a1cc2d410d0e24"
+        },
+        {
+          "id": "19:2173",
+          "name": "Photo / pepper",
+          "hash": "bcdc1110b47b9f4c5f860aae8422d5899765fdf2"
+        },
+        {
+          "id": "19:2176",
+          "name": "Photo / alfredo",
+          "hash": "e9869b1b8d8ceff8c216e4c96f73700dd60afea2"
+        },
+        {
+          "id": "I19:2193;19:2183",
+          "name": "Photo / alfredo",
+          "hash": "e9869b1b8d8ceff8c216e4c96f73700dd60afea2"
+        },
+        {
+          "id": "I19:2209;19:2202",
+          "name": "Photo / souvlaki",
+          "hash": "8fbce4fd83aad7bc93e6792da57d9ca496c0c796"
+        },
+        {
+          "id": "I19:2225;19:2218",
+          "name": "Photo / pizza",
+          "hash": "92c9413b6bd9b6fe71541bc4405948acf2b42aa7"
+        },
+        {
+          "id": "I19:2241;19:2234",
+          "name": "Photo / taameya",
+          "hash": "081823910b5afba7772d59d19cb685058a47c6ab"
+        },
+        {
+          "id": "19:2249",
+          "name": "Photo / academy",
+          "hash": "2c46a8157efc967d560ea0338a07608d2d4a8052"
+        }
+      ],
+      "nav": [
+        {
+          "id": "19:2117",
+          "children": [
+            {
+              "id": "19:2118",
+              "name": "Icon / leaf",
+              "type": "FRAME",
+              "width": 26,
+              "height": 26
+            },
+            {
+              "id": "19:2120",
+              "name": "ChefShop wordmark",
+              "type": "FRAME",
+              "width": 177,
+              "height": 43
+            },
+            {
+              "id": "19:2125",
+              "name": "Open shop",
+              "type": "FRAME",
+              "width": 34,
+              "height": 36
+            },
+            {
+              "id": "19:2129",
+              "name": "Open cart",
+              "type": "FRAME",
+              "width": 36,
+              "height": 36
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6:686",
+      "name": "03 · Meal details · iPhone 17",
+      "photos": [
+        {
+          "id": "19:2677",
+          "name": "Photo / alfredo",
+          "hash": "e9869b1b8d8ceff8c216e4c96f73700dd60afea2"
+        },
+        {
+          "id": "19:2709",
+          "name": "Photo / pepper",
+          "hash": "bcdc1110b47b9f4c5f860aae8422d5899765fdf2"
+        },
+        {
+          "id": "19:2719",
+          "name": "Photo / saucepan",
+          "hash": "452a765832684adf6881d59480a1cc2d410d0e24"
+        }
+      ],
+      "nav": [
+        {
+          "id": "19:2648",
+          "children": [
+            {
+              "id": "19:2649",
+              "name": "Icon / leaf",
+              "type": "FRAME",
+              "width": 26,
+              "height": 26
+            },
+            {
+              "id": "19:2651",
+              "name": "ChefShop wordmark",
+              "type": "FRAME",
+              "width": 177,
+              "height": 43
+            },
+            {
+              "id": "19:2654",
+              "name": "Open shop",
+              "type": "FRAME",
+              "width": 34,
+              "height": 36
+            },
+            {
+              "id": "19:2658",
+              "name": "Open cart",
+              "type": "FRAME",
+              "width": 36,
+              "height": 36
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "19:2729",
+      "name": "ChefShop Mobile / Meal / Margherita Pizza",
+      "photos": [
+        {
+          "id": "19:2763",
+          "name": "Photo / pizza",
+          "hash": "92c9413b6bd9b6fe71541bc4405948acf2b42aa7"
+        },
+        {
+          "id": "19:2793",
+          "name": "Photo / oregano",
+          "hash": "50cac94532f845472efe6fd65329cfb4c9412a8f"
+        },
+        {
+          "id": "19:2802",
+          "name": "Photo / stone",
+          "hash": "c17b67c43fa0af32f2fd0eee311a27cc62083072"
+        }
+      ],
+      "nav": [
+        {
+          "id": "19:2737",
+          "children": [
+            {
+              "id": "19:2738",
+              "name": "Icon / leaf",
+              "type": "FRAME",
+              "width": 26,
+              "height": 26
+            },
+            {
+              "id": "19:2740",
+              "name": "ChefShop wordmark",
+              "type": "FRAME",
+              "width": 177,
+              "height": 43
+            },
+            {
+              "id": "19:2743",
+              "name": "Open shop",
+              "type": "FRAME",
+              "width": 34,
+              "height": 36
+            },
+            {
+              "id": "19:2747",
+              "name": "Open cart",
+              "type": "FRAME",
+              "width": 36,
+              "height": 36
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "19:2812",
+      "name": "ChefShop Mobile / Meal / Chicken Souvlaki Pita",
+      "photos": [
+        {
+          "id": "19:2846",
+          "name": "Photo / souvlaki",
+          "hash": "8fbce4fd83aad7bc93e6792da57d9ca496c0c796"
+        },
+        {
+          "id": "19:2867",
+          "name": "Photo / oregano",
+          "hash": "50cac94532f845472efe6fd65329cfb4c9412a8f"
+        },
+        {
+          "id": "19:2876",
+          "name": "Photo / grill",
+          "hash": "fcf7729c9f4dfdb7dc27a78dedf814c13e2925bc"
+        }
+      ],
+      "nav": [
+        {
+          "id": "19:2820",
+          "children": [
+            {
+              "id": "19:2821",
+              "name": "Icon / leaf",
+              "type": "FRAME",
+              "width": 26,
+              "height": 26
+            },
+            {
+              "id": "19:2823",
+              "name": "ChefShop wordmark",
+              "type": "FRAME",
+              "width": 177,
+              "height": 43
+            },
+            {
+              "id": "19:2826",
+              "name": "Open shop",
+              "type": "FRAME",
+              "width": 34,
+              "height": 36
+            },
+            {
+              "id": "19:2830",
+              "name": "Open cart",
+              "type": "FRAME",
+              "width": 36,
+              "height": 36
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "19:2886",
+      "name": "ChefShop Mobile / Meal / Taameya Sandwich",
+      "photos": [
+        {
+          "id": "19:2920",
+          "name": "Photo / taameya",
+          "hash": "081823910b5afba7772d59d19cb685058a47c6ab"
+        },
+        {
+          "id": "19:2941",
+          "name": "Photo / cumin",
+          "hash": "5ea9448eed64044e6c9cd024b3c0ec13ad5c0cf7"
+        },
+        {
+          "id": "19:2950",
+          "name": "Photo / coriander",
+          "hash": "81374b47d824f407bb59d3948322428d2b619287"
+        },
+        {
+          "id": "19:2959",
+          "name": "Photo / saucepan",
+          "hash": "452a765832684adf6881d59480a1cc2d410d0e24"
+        }
+      ],
+      "nav": [
+        {
+          "id": "19:2894",
+          "children": [
+            {
+              "id": "19:2895",
+              "name": "Icon / leaf",
+              "type": "FRAME",
+              "width": 26,
+              "height": 26
+            },
+            {
+              "id": "19:2897",
+              "name": "ChefShop wordmark",
+              "type": "FRAME",
+              "width": 177,
+              "height": 43
+            },
+            {
+              "id": "19:2900",
+              "name": "Open shop",
+              "type": "FRAME",
+              "width": 34,
+              "height": 36
+            },
+            {
+              "id": "19:2904",
+              "name": "Open cart",
+              "type": "FRAME",
+              "width": 36,
+              "height": 36
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "19:2969",
+      "name": "ChefShop Mobile / Meal / Pasta Bolognese",
+      "photos": [
+        {
+          "id": "19:3003",
+          "name": "Photo / bolognese",
+          "hash": "a4c39f9a87bb5897faebc130d14884438e1e4bf1"
+        },
+        {
+          "id": "19:3024",
+          "name": "Photo / oregano",
+          "hash": "50cac94532f845472efe6fd65329cfb4c9412a8f"
+        },
+        {
+          "id": "19:3033",
+          "name": "Photo / pepper",
+          "hash": "bcdc1110b47b9f4c5f860aae8422d5899765fdf2"
+        },
+        {
+          "id": "19:3042",
+          "name": "Photo / saucepan",
+          "hash": "452a765832684adf6881d59480a1cc2d410d0e24"
+        }
+      ],
+      "nav": [
+        {
+          "id": "19:2977",
+          "children": [
+            {
+              "id": "19:2978",
+              "name": "Icon / leaf",
+              "type": "FRAME",
+              "width": 26,
+              "height": 26
+            },
+            {
+              "id": "19:2980",
+              "name": "ChefShop wordmark",
+              "type": "FRAME",
+              "width": 177,
+              "height": 43
+            },
+            {
+              "id": "19:2983",
+              "name": "Open shop",
+              "type": "FRAME",
+              "width": 34,
+              "height": 36
+            },
+            {
+              "id": "19:2987",
+              "name": "Open cart",
+              "type": "FRAME",
+              "width": 36,
+              "height": 36
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "19:3052",
+      "name": "ChefShop Mobile / Meal / Pesto Pasta",
+      "photos": [
+        {
+          "id": "19:3086",
+          "name": "Photo / pesto",
+          "hash": "8dacb7ae875a201883638c15fe4f396988800f49"
+        },
+        {
+          "id": "19:3107",
+          "name": "Photo / pepper",
+          "hash": "bcdc1110b47b9f4c5f860aae8422d5899765fdf2"
+        },
+        {
+          "id": "19:3116",
+          "name": "Photo / saucepan",
+          "hash": "452a765832684adf6881d59480a1cc2d410d0e24"
+        }
+      ],
+      "nav": [
+        {
+          "id": "19:3060",
+          "children": [
+            {
+              "id": "19:3061",
+              "name": "Icon / leaf",
+              "type": "FRAME",
+              "width": 26,
+              "height": 26
+            },
+            {
+              "id": "19:3063",
+              "name": "ChefShop wordmark",
+              "type": "FRAME",
+              "width": 177,
+              "height": 43
+            },
+            {
+              "id": "19:3066",
+              "name": "Open shop",
+              "type": "FRAME",
+              "width": 34,
+              "height": 36
+            },
+            {
+              "id": "19:3070",
+              "name": "Open cart",
+              "type": "FRAME",
+              "width": 36,
+              "height": 36
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "vars": [
+    {
+      "id": "VariableID:6:4",
+      "name": "palette/ink",
+      "type": "COLOR"
+    },
+    {
+      "id": "VariableID:6:5",
+      "name": "color/ink",
+      "type": "COLOR"
+    },
+    {
+      "id": "VariableID:6:6",
+      "name": "palette/muted",
+      "type": "COLOR"
+    },
+    {
+      "id": "VariableID:6:7",
+      "name": "color/muted",
+      "type": "COLOR"
+    },
+    {
+      "id": "VariableID:6:8",
+      "name": "palette/paper",
+      "type": "COLOR"
+    },
+    {
+      "id": "VariableID:6:9",
+      "name": "color/paper",
+      "type": "COLOR"
+    },
+    {
+      "id": "VariableID:6:10",
+      "name": "palette/white",
+      "type": "COLOR"
+    },
+    {
+      "id": "VariableID:6:11",
+      "name": "color/white",
+      "type": "COLOR"
+    },
+    {
+      "id": "VariableID:6:12",
+      "name": "palette/line",
+      "type": "COLOR"
+    },
+    {
+      "id": "VariableID:6:13",
+      "name": "color/line",
+      "type": "COLOR"
+    },
+    {
+      "id": "VariableID:6:14",
+      "name": "palette/green",
+      "type": "COLOR"
+    },
+    {
+      "id": "VariableID:6:15",
+      "name": "color/green",
+      "type": "COLOR"
+    },
+    {
+      "id": "VariableID:6:16",
+      "name": "palette/pale",
+      "type": "COLOR"
+    },
+    {
+      "id": "VariableID:6:17",
+      "name": "color/pale",
+      "type": "COLOR"
+    },
+    {
+      "id": "VariableID:6:18",
+      "name": "palette/orange",
+      "type": "COLOR"
+    },
+    {
+      "id": "VariableID:6:19",
+      "name": "color/orange",
+      "type": "COLOR"
+    },
+    {
+      "id": "VariableID:6:20",
+      "name": "palette/peach",
+      "type": "COLOR"
+    },
+    {
+      "id": "VariableID:6:21",
+      "name": "color/peach",
+      "type": "COLOR"
+    },
+    {
+      "id": "VariableID:6:22",
+      "name": "palette/gold",
+      "type": "COLOR"
+    },
+    {
+      "id": "VariableID:6:23",
+      "name": "color/gold",
+      "type": "COLOR"
+    },
+    {
+      "id": "VariableID:6:24",
+      "name": "palette/red",
+      "type": "COLOR"
+    },
+    {
+      "id": "VariableID:6:25",
+      "name": "color/red",
+      "type": "COLOR"
+    },
+    {
+      "id": "VariableID:6:26",
+      "name": "palette/dark",
+      "type": "COLOR"
+    },
+    {
+      "id": "VariableID:6:27",
+      "name": "color/dark",
+      "type": "COLOR"
+    },
+    {
+      "id": "VariableID:6:28",
+      "name": "space/sm",
+      "type": "FLOAT"
+    },
+    {
+      "id": "VariableID:6:29",
+      "name": "space/md",
+      "type": "FLOAT"
+    },
+    {
+      "id": "VariableID:6:30",
+      "name": "space/lg",
+      "type": "FLOAT"
+    },
+    {
+      "id": "VariableID:6:31",
+      "name": "radius/sm",
+      "type": "FLOAT"
+    },
+    {
+      "id": "VariableID:6:32",
+      "name": "radius/md",
+      "type": "FLOAT"
+    },
+    {
+      "id": "VariableID:6:33",
+      "name": "radius/lg",
+      "type": "FLOAT"
+    },
+    {
+      "id": "VariableID:19:2054",
+      "name": "color/cream",
+      "type": "COLOR"
+    },
+    {
+      "id": "VariableID:19:2055",
+      "name": "color/white",
+      "type": "COLOR"
+    },
+    {
+      "id": "VariableID:19:2056",
+      "name": "color/ink",
+      "type": "COLOR"
+    },
+    {
+      "id": "VariableID:19:2057",
+      "name": "color/olive",
+      "type": "COLOR"
+    },
+    {
+      "id": "VariableID:19:2058",
+      "name": "color/rust",
+      "type": "COLOR"
+    },
+    {
+      "id": "VariableID:19:2059",
+      "name": "color/sage",
+      "type": "COLOR"
+    },
+    {
+      "id": "VariableID:19:2060",
+      "name": "color/muted",
+      "type": "COLOR"
+    },
+    {
+      "id": "VariableID:19:2061",
+      "name": "color/line",
+      "type": "COLOR"
+    },
+    {
+      "id": "VariableID:19:2062",
+      "name": "color/peach",
+      "type": "COLOR"
+    },
+    {
+      "id": "VariableID:19:2063",
+      "name": "color/gold",
+      "type": "COLOR"
+    },
+    {
+      "id": "VariableID:19:2064",
+      "name": "color/black",
+      "type": "COLOR"
+    },
+    {
+      "id": "VariableID:19:2065",
+      "name": "color/red",
+      "type": "COLOR"
+    },
+    {
+      "id": "VariableID:19:2066",
+      "name": "space/8",
+      "type": "FLOAT"
+    },
+    {
+      "id": "VariableID:19:2067",
+      "name": "space/12",
+      "type": "FLOAT"
+    },
+    {
+      "id": "VariableID:19:2068",
+      "name": "space/16",
+      "type": "FLOAT"
+    },
+    {
+      "id": "VariableID:19:2069",
+      "name": "space/20",
+      "type": "FLOAT"
+    },
+    {
+      "id": "VariableID:19:2070",
+      "name": "space/24",
+      "type": "FLOAT"
+    },
+    {
+      "id": "VariableID:19:2071",
+      "name": "radius/8",
+      "type": "FLOAT"
+    },
+    {
+      "id": "VariableID:19:2072",
+      "name": "radius/12",
+      "type": "FLOAT"
+    }
+  ],
+  "styles": [
+    {
+      "id": "S:67183d9b385919383d8f53621c18d934f62ad4cd,",
+      "name": "ChefShop Mobile/Interface/14/Bold",
+      "fontName": {
+        "family": "Arial",
+        "style": "Bold"
+      },
+      "fontSize": 14
+    },
+    {
+      "id": "S:99d439f0773605990e15729ab16864e10dc14d8b,",
+      "name": "ChefShop Mobile/Interface/14/Regular",
+      "fontName": {
+        "family": "Arial",
+        "style": "Regular"
+      },
+      "fontSize": 14
+    },
+    {
+      "id": "S:d93b371044f6472eabfca0453440059dd6f45410,",
+      "name": "ChefShop Mobile/Interface/7/Bold",
+      "fontName": {
+        "family": "Arial",
+        "style": "Bold"
+      },
+      "fontSize": 7
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+const {spawn}=require('node:child_process'),fs=require('node:fs'),path=require('node:path');
+const keys=['hawawshi','halloumi','bolognese','pesto','pizza','souvlaki','taameya','ful','liver','spanakopita','gyro'];
+(async()=>{for(const key of keys){console.log('START',key);const out=fs.createWriteStream(path.join(__dirname,key+'-render.log'));const child=spawn('py',['-3.11',path.join(__dirname,'render_relief.py'),key,'film'],{env:{...process.env,CHEFSHOP_RENDER_ENGINE:'CYCLES',CHEFSHOP_FAST:'1'},windowsHide:true,stdio:['ignore','pipe','pipe']});child.stdout.pipe(out);child.stderr.pipe(out);const code=await new Promise(resolve=>child.on('close',resolve));if(code!==0)throw Error(key+' failed '+code);console.log('DONE',key);}console.log('ALL RENDERED');})();

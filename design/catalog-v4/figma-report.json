@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "fileKey": "MPTpr6xUM7RwoMHfkYh8OV",
+  "page": "0:1",
+  "counts": {
+    "meals": 12,
+    "spices": 12,
+    "tools": 12
+  },
+  "cuisines": {
+    "Egypt": 4,
+    "Italy": 4,
+    "Greece": 4
+  },
+  "originalViewports": 19,
+  "motionFamilies": 12,
+  "motion": {
+    "preview": "60:10420",
+    "duration": 18.4,
+    "scenes": 3,
+    "tracksAddedBeforeLoopPolish": 138
+  },
+  "reviewBoards": {
+    "meals": "60:11241",
+    "tools": "60:11327",
+    "spices": "60:11413"
+  },
+  "checks": {
+    "matchingProductDetailDestinations": 36,
+    "collapsedDetailText": 0,
+    "mobileViewport": "402x874",
+    "cardTitles": "48px aligned slots",
+    "mobileLayers": "fit above purchase copy",
+    "loop": "final crossfade to opening dish",
+    "mobileMotion": "Authored directly at phone size; assembled and exploded phases visually verified",
+    "spicesAndTools": "All 12 photos and labels in each review board visually verified"
+  },
+  "limitations": [
+    "Layered 2D Figma motion, not deformable 3D",
+    "Cart and checkout remain illustrative prototype flows",
+    "YouTube reference unavailable to web fetch",
+    "Figma MCP Starter limit required applying and reviewing through the authorized local plugin"
+  ]
+}

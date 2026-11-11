@@ -1,0 +1,86 @@
+<a class="skip-link" href="#main-content" (click)="skipToContent($event)">Skip to content</a>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" routerLink="/" aria-label="ChefShop home"
+      ><span class="brand-mark"
+        ><img src="assets/figma/imgFrame.svg" alt="" width="64" height="64" /></span
+      ><span class="brand-type"
+        ><b class="brand-name">
+          @for (letter of brandLetters; track $index) {
+            <span class="brand-letter" [style.--letter-index]="$index">{{ letter }}</span>
+          }</b
+        ><small>EGYPT · ITALY · GREECE</small></span
+      ></a
+    >
+    <div class="header-actions">
+      <a class="bag" routerLink="/cart" [attr.aria-label]="'Bag, ' + cart.count() + ' items'"
+        >Bag <span>{{ cart.count() }}</span></a
+      ><button
+        class="theme-button"
+        (click)="ui.setTheme(ui.theme() === 'dark' ? 'light' : 'dark')"
+        [attr.aria-label]="'Switch to ' + (ui.theme() === 'dark' ? 'light' : 'dark') + ' theme'"
+      >
+        {{ ui.theme() === 'dark' ? 'Light' : 'Dark' }}
+      </button>
+    </div>
+  </div>
+  <nav class="nav" aria-label="Primary navigation">
+    <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a
+    ><a routerLink="/shop" routerLinkActive="active">Shop</a
+    ><a routerLink="/academy" routerLinkActive="active">Academy</a
+    ><a [routerLink]="auth.user() ? '/profile' : '/login'" routerLinkActive="active">{{
+      auth.user() ? 'Profile' : 'Login'
+    }}</a
+    ><a routerLink="/cart" routerLinkActive="active">Cart</a>
+  </nav>
+</header>
+@if (auth.user(); as user) {
+  <div class="workspace-strip">
+    <span
+      >{{ user.name }} <span class="badge">{{ user.role }}</span></span
+    >
+    <div>
+      <a [routerLink]="auth.home()">My workspace →</a>
+      @if (user.role === 'admin') {
+        <a routerLink="/admin">Users</a>
+      }
+      <button (click)="logout()">Sign out</button>
+    </div>
+  </div>
+}
+@if (storage.warning()) {
+  <div class="notice storage-warning" role="status">{{ storage.warning() }}</div>
+}
+<main id="main-content" tabindex="-1" appTextMotion><router-outlet /></main>
+<footer>
+  <b>CHEFSHOP</b>
+  <p>Egyptian heart. Mediterranean spirit.<br />Made by students. Guided by chefs.</p>
+  <div>
+    <a routerLink="/guide">Workflow & demo guide</a><a routerLink="/profile">Your profile</a>
+    @if (!auth.user()) {
+      <a routerLink="/signup">Create an account</a>
+    }
+    <a routerLink="/academy">The academy</a>
+  </div>
+  <p class="small">
+    ICS 511 · Milestone 1 · Frontend demonstration. Orders and payments are simulated.
+  </p>
+  <button class="text-button" (click)="ui.cookieChoice.set('')">Cookie preferences</button>
+</footer>
+@if (!ui.cookieChoice()) {
+  <aside class="cookie-banner" aria-label="Cookie preferences">
+    <div>
+      <strong>Your preferences, remembered.</strong>
+      <p>
+        We use cookies for your theme and this choice. Your demo account and records use browser
+        storage. No analytics or tracking cookies.
+      </p>
+    </div>
+    <button class="primary" (click)="ui.acceptCookies()">Save essential preferences</button>
+  </aside>
+}
+@if (ui.toast()) {
+  <div class="toast" role="status" aria-live="polite">
+    {{ ui.toast() }}<button aria-label="Dismiss notification" (click)="ui.toast.set('')">×</button>
+  </div>
+}

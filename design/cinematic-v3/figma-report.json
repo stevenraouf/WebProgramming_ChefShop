@@ -1,0 +1,17 @@
+{
+  "status":"passed",
+  "fileKey":"MPTpr6xUM7RwoMHfkYh8OV",
+  "mobileHome":"6:58",
+  "desktopLanding":"54:3652",
+  "brandDirection":"54:3718",
+  "wordmarkMaster":"23:391",
+  "forkMaster":"23:383",
+  "originalPhoneScreens":19,
+  "phoneViewport":{"width":402,"height":874},
+  "desktopViewport":{"width":1440,"height":2002,"clipsContent":true},
+  "fontFamilies":["Manrope","Bebas Neue"],
+  "editableTextNodesInOriginalScreens":720,
+  "nativeMotion":{"durationSeconds":6,"tracks":20,"phoneAnimatedNodes":6,"desktopAnimatedNodes":3,"effects":["Food translation, scale and rotation","Food arrival opacity","Ember-light intensity","Headline and supporting content arrival"]},
+  "verification":["Original 19 phone dimensions retained","No legacy Georgia typography in the original phone screens","Phone landing visually reviewed in native Figma","Desktop export visually reviewed","Desktop crop and footer repaired in native Figma","Desktop six-second native Motion timeline played","Settled hero inspected at 2505 ms"],
+  "problems":[]
+}

@@ -1,0 +1,20 @@
+# Local package installations and generated output
+/.report-runtime/
+/.report-pdf-runtime/
+/.chefshop-git-backup/
+/chefshop/node_modules/
+/chefshop/.angular/
+/chefshop/dist/
+/chefshop/coverage/
+/chefshop/out-tsc/
+
+# Downloaded rendering toolchains; source and rendered design assets remain tracked
+/design/**/runtime/
+/design/**/wheels/
+**/__pycache__/
+**/.pytest_cache/
+**/node_modules/
+
+# Editor and operating system caches
+**/.DS_Store
+**/Thumbs.db

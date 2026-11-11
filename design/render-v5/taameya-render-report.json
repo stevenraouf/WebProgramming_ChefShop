@@ -1,0 +1,19 @@
+{
+  "type": "Textured 3D relief meshes",
+  "frames": 96,
+  "seconds": 4.08,
+  "crop": [
+    99,
+    122,
+    380,
+    483
+  ],
+  "lighting": [
+    "ivory key",
+    "amber rim",
+    "olive fill"
+  ],
+  "camera": "Perspective orbital camera",
+  "timing": "fast burst, suspended drift, fast return",
+  "asset": "taameya-3d-relief.gif"
+}

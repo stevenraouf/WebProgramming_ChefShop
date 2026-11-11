@@ -1,0 +1,53 @@
+ChefShop Milestone 1 Report
+
+ICS 511 Web Programming | Winter Semester 2026<br/>Dr. Amal Aboulhassan | TA Omar El-Barbary
+
+<b>Team:</b> ChefShop (name confirmation pending) &nbsp; <b>Project:</b> Idea 6
+
+Application and project idea
+
+ChefShop connects a culinary institute with an online store for kitchen tools, spices and meals prepared by students. Egyptian, Italian and Greek dishes shape the catalogue and visual identity. Students can purchase uniforms and knife kits and manage module fees. Accounting staff manage departmental costs and chef pay, including catering allowances.
+
+This milestone implements a browser-based Angular frontend with simulated records and payments. It includes 12 meals, 12 spices, 12 tools, a uniform and a knife kit. Customers can filter products, choose options, change quantities and complete pickup or delivery checkout. Meal pages link to ingredients and tools for recreating the dish.
+
+Users and authorized information
+
+Interface and workflow
+
+The V6 design uses a dark palette, amber actions, a regional fork logo and animated headings. The main shopping flow is Home > Shop > Product > Cart > Checkout > Confirmation. Students and staff reach their permitted workspaces after login. Forms provide validation and success feedback; account and profile pages support pictures and preferences.
+
+Figure 1. Running Home page with the animated meal presentation.
+
+State storage and user experience
+
+Angular implementation
+
+Standalone Angular components separate the store, accounts and finance features. Signals and computed values update shared state and derived totals; Reactive Forms validate user input. Lazy routes load feature screens on demand, while product images and Chart.js are loaded lazily to reduce unnecessary initial work. Reusable cards, headings, errors and charts keep feedback consistent.
+
+Storage choices and their effects
+
+Storage keys use the chefshop: prefix. Read/write failures show a warning and allow in-memory use or demo defaults rather than silently claiming that data was saved. Persistent cart and form state save time, while visible preferences let users control motion, sound and presentation.
+
+Authentication privacy and security
+
+Signup stores a salted PBKDF2 SHA-256 password hash with 100,000 iterations instead of plaintext. New accounts receive the Student role. Route guards and service checks restrict finance actions, and student/chef views filter records by owner. Sessions expire after eight hours; sign-out removes session and checkout draft data.
+
+Only a demo card's last four digits, expiry and holder name are saved. Full card numbers and CVCs are discarded and excluded from checkout drafts. Profile uploads accept JPG, PNG or WebP up to 500 KB. Test data is required: no real payment is collected. Browser storage and client-side authorization can be tampered with; server-side authentication, validation and access control are work for the next milestone.
+
+Responsive design accessibility and verification
+
+Responsive grids and tables adapt at CSS breakpoints. Labels, validation messages, focus indicators, a keyboard skip link and chart data tables support navigation and interpretation. Reduced-motion settings replace the autoplay hero with a still image and limit decorative motion. Optional sound provides brief feedback.
+
+On 9 November 2026, all 36 Jasmine/Karma tests passed and the production build succeeded. Tests cover authentication, permissions, cart calculations, financial records, event approval, report snapshots, fee ownership, partial payments and validation, with regression tests for motion, selects and the skip link. Browser QA exercised the main flows at emulated 390 x 844, 768 x 1024 and 1440 x 900 viewports; physical-device and full cross-browser testing were not performed.
+
+Sample runs and validation
+
+These screenshots show the running frontend with synthetic November 2026 records. Financial examples below reflect the local QA edits. All amounts are in Egyptian pounds.
+
+<b>Figure 2. Department budgets.</b> Editing a Kitchen ingredient expense from EGP 123 to EGP 124 updated the ledger and chart. Total expenses became EGP 90,524; the balance before payroll became EGP 95,876.
+
+<b>Figure 3. Payroll.</b> Salary, allowance and deduction changes produced net payroll of EGP 48,050; Nadia's net was EGP 17,050. The earlier downloaded JSON snapshot was parsed separately: three staff rows summed correctly to its EGP 46,400 total.
+
+<b>Figure 4. Student fees.</b> A demo EGP 100 payment reduced Alex's invoice balance to EGP 2,300. Accounting created and fully paid a separate EGP 100 QA invoice. Paid status, history and student ownership restrictions were verified.
+
+<b>Other sample results:</b> pickup order CS-315C8AB9 totalled EGP 165; delivery added EGP 30. Invalid login and unauthorized routes were rejected. Reloading retained the session, cart and theme. Evidence is saved in the QA log, test/build logs and payroll JSON.

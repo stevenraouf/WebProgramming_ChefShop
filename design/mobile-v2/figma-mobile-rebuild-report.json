@@ -1,0 +1,133 @@
+{
+  "status": "passed",
+  "viewport": "iPhone 17 · 402 × 874",
+  "frameCount": 19,
+  "scrollableFrames": 19,
+  "editableTextNodes": 698,
+  "photoAssets": 12,
+  "prototypeConnections": 136,
+  "responsive": {
+    "testWidth": 1200,
+    "viewportWidth": 1200,
+    "contentWidth": 1120
+  },
+  "problems": [],
+  "frames": [
+    {
+      "id": "6:58",
+      "name": "01 · Home · iPhone 17",
+      "width": 402,
+      "height": 874
+    },
+    {
+      "id": "6:431",
+      "name": "02 · Shop · iPhone 17",
+      "width": 402,
+      "height": 874
+    },
+    {
+      "id": "6:686",
+      "name": "03 · Meal details · iPhone 17",
+      "width": 402,
+      "height": 874
+    },
+    {
+      "id": "6:771",
+      "name": "04 · Cart · iPhone 17",
+      "width": 402,
+      "height": 874
+    },
+    {
+      "id": "6:892",
+      "name": "05 · Checkout · iPhone 17",
+      "width": 402,
+      "height": 874
+    },
+    {
+      "id": "6:962",
+      "name": "06 · Confirmation · iPhone 17",
+      "width": 402,
+      "height": 874
+    },
+    {
+      "id": "6:995",
+      "name": "07 · Sign in · iPhone 17",
+      "width": 402,
+      "height": 874
+    },
+    {
+      "id": "6:1077",
+      "name": "08 · Student dashboard · iPhone 17",
+      "width": 402,
+      "height": 874
+    },
+    {
+      "id": "6:1155",
+      "name": "09 · Module payment · iPhone 17",
+      "width": 402,
+      "height": 874
+    },
+    {
+      "id": "6:1225",
+      "name": "10 · Fee receipt · iPhone 17",
+      "width": 402,
+      "height": 874
+    },
+    {
+      "id": "6:1262",
+      "name": "11 · Chef workspace · iPhone 17",
+      "width": 402,
+      "height": 874
+    },
+    {
+      "id": "6:1338",
+      "name": "12 · Operations overview · iPhone 17",
+      "width": 402,
+      "height": 874
+    },
+    {
+      "id": "6:1456",
+      "name": "13 · Department costs · iPhone 17",
+      "width": 402,
+      "height": 874
+    },
+    {
+      "id": "6:1544",
+      "name": "14 · Catering events · iPhone 17",
+      "width": 402,
+      "height": 874
+    },
+    {
+      "id": "6:1624",
+      "name": "15 · Product profitability · iPhone 17",
+      "width": 402,
+      "height": 874
+    },
+    {
+      "id": "6:1716",
+      "name": "16 · Chef payroll · iPhone 17",
+      "width": 402,
+      "height": 874
+    },
+    {
+      "id": "6:1792",
+      "name": "17 · Academy · iPhone 17",
+      "width": 402,
+      "height": 874
+    },
+    {
+      "id": "6:1906",
+      "name": "18 · Spice details · iPhone 17",
+      "width": 402,
+      "height": 874
+    },
+    {
+      "id": "6:2000",
+      "name": "19 · Tool details · iPhone 17",
+      "width": 402,
+      "height": 874
+    }
+  ],
+  "syncWarningAfterReconnect": false,
+  "reloadedFileVerified": true
+}

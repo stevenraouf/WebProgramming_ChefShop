@@ -1,0 +1,68 @@
+[
+  {
+    "key": "alfredo",
+    "status": 200,
+    "body": {
+      "success": true,
+      "imageHash": "6fb7011e4ae9cb6817b48b36ef678af84ae76666",
+      "sizeBytes": 1887203,
+      "contentType": "image/png",
+      "placedOnNodeId": "24:211"
+    }
+  },
+  {
+    "key": "bolognese",
+    "status": 200,
+    "body": {
+      "success": true,
+      "imageHash": "f8763f205236968f753f3fc5dd02dfe214dcb345",
+      "sizeBytes": 2212353,
+      "contentType": "image/png",
+      "placedOnNodeId": "24:209"
+    }
+  },
+  {
+    "key": "pesto",
+    "status": 200,
+    "body": {
+      "success": true,
+      "imageHash": "d4c49959e431fd01dc75c8f92af368129991a02a",
+      "sizeBytes": 1994904,
+      "contentType": "image/png",
+      "placedOnNodeId": "24:212"
+    }
+  },
+  {
+    "key": "pizza",
+    "status": 200,
+    "body": {
+      "success": true,
+      "imageHash": "98ef987d4608edd4ece96af14ea785b738479a15",
+      "sizeBytes": 2333301,
+      "contentType": "image/png",
+      "placedOnNodeId": "24:208"
+    }
+  },
+  {
+    "key": "souvlaki",
+    "status": 200,
+    "body": {
+      "success": true,
+      "imageHash": "8b7e50a3fb36ab3d8d496b3728b0b218b17a0801",
+      "sizeBytes": 2363645,
+      "contentType": "image/png",
+      "placedOnNodeId": "24:207"
+    }
+  },
+  {
+    "key": "taameya",
+    "status": 200,
+    "body": {
+      "success": true,
+      "imageHash": "3195bf22b3a403c716fc9ccc360ea145676832c3",
+      "sizeBytes": 2774227,
+      "contentType": "image/png",
+      "placedOnNodeId": "24:210"
+    }
+  }
+]

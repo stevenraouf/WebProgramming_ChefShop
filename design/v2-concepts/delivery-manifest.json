@@ -1,0 +1,52 @@
+{
+  "corePages": 7,
+  "screenStates": 15,
+  "designBoards": 6,
+  "workflowImages": 1,
+  "images": [
+    {
+      "file": "01-home-and-shop-final.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2241861
+    },
+    {
+      "file": "02-meal-details.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2164915
+    },
+    {
+      "file": "03-linked-spice-and-tool.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1913807
+    },
+    {
+      "file": "04-cart-checkout-confirmation.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1919626
+    },
+    {
+      "file": "05-academy-final.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2167781
+    },
+    {
+      "file": "06-customer-workflow.png",
+      "width": 4800,
+      "height": 4100,
+      "bytes": 742929
+    },
+    {
+      "file": "07-shop-category-states.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2114856
+    }
+  ],
+  "archiveEntries": 9,
+  "missingGalleryLinks": []
+}

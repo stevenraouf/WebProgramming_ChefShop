@@ -1,0 +1,147 @@
+import { Routes } from '@angular/router';
+import { roleGuard } from './core/guards';
+export const routes: Routes = [
+  {
+    path: '',
+    loadComponent: () => import('./store/home').then((m) => m.HomePage),
+    title: 'ChefShop · Three roots. One craving.',
+  },
+  {
+    path: 'shop',
+    loadComponent: () => import('./store/shop').then((m) => m.ShopPage),
+    title: 'ChefShop · Shop',
+  },
+  {
+    path: 'product/:key',
+    loadComponent: () => import('./store/product').then((m) => m.ProductPage),
+    title: 'ChefShop · Product',
+  },
+  {
+    path: 'cart',
+    loadComponent: () => import('./store/cart').then((m) => m.CartPage),
+    title: 'ChefShop · Your bag',
+  },
+  {
+    path: 'checkout',
+    loadComponent: () => import('./store/checkout').then((m) => m.CheckoutPage),
+    title: 'ChefShop · Checkout',
+  },
+  {
+    path: 'order/:id',
+    loadComponent: () => import('./store/order').then((m) => m.OrderPage),
+    title: 'ChefShop · Order confirmation',
+  },
+  {
+    path: 'academy',
+    loadComponent: () => import('./store/academy').then((m) => m.AcademyPage),
+    title: 'ChefShop · Academy',
+  },
+  {
+    path: 'signup',
+    loadComponent: () => import('./account/account').then((m) => m.SignupPage),
+    title: 'ChefShop · Sign up',
+  },
+  {
+    path: 'login',
+    loadComponent: () => import('./account/account').then((m) => m.LoginPage),
+    title: 'ChefShop · Login',
+  },
+  {
+    path: 'profile',
+    canActivate: [roleGuard],
+    loadComponent: () => import('./account/profile').then((m) => m.ProfilePage),
+    title: 'ChefShop · Profile',
+  },
+  {
+    path: 'student',
+    canActivate: [roleGuard],
+    data: { roles: ['student'] },
+    loadComponent: () => import('./finance/student').then((m) => m.StudentPage),
+    title: 'ChefShop · Student workspace',
+  },
+  {
+    path: 'fees/:id/pay',
+    canActivate: [roleGuard],
+    data: { roles: ['student'] },
+    loadComponent: () => import('./finance/fee-payment').then((m) => m.FeePaymentPage),
+    title: 'ChefShop · Module payment',
+  },
+  {
+    path: 'receipt/:id',
+    canActivate: [roleGuard],
+    data: { roles: ['student', 'admin', 'accounting'] },
+    loadComponent: () => import('./finance/fee-payment').then((m) => m.ReceiptPage),
+    title: 'ChefShop · Fee receipt',
+  },
+  {
+    path: 'fees',
+    canActivate: [roleGuard],
+    data: { roles: ['student', 'admin', 'accounting'] },
+    loadComponent: () => import('./finance/fees').then((m) => m.FeesPage),
+    title: 'ChefShop · Student fees',
+  },
+  {
+    path: 'chef',
+    canActivate: [roleGuard],
+    data: { roles: ['chef'] },
+    loadComponent: () => import('./finance/chef').then((m) => m.ChefPage),
+    title: 'ChefShop · Chef workspace',
+  },
+  {
+    path: 'operations',
+    canActivate: [roleGuard],
+    data: { roles: ['admin', 'accounting'] },
+    loadComponent: () => import('./finance/operations').then((m) => m.OperationsPage),
+    title: 'ChefShop · Operations',
+  },
+  {
+    path: 'budgets',
+    canActivate: [roleGuard],
+    data: { roles: ['admin', 'accounting'] },
+    loadComponent: () => import('./finance/budgets').then((m) => m.BudgetsPage),
+    title: 'ChefShop · Department budgets',
+  },
+  {
+    path: 'payroll',
+    canActivate: [roleGuard],
+    data: { roles: ['admin', 'accounting'] },
+    loadComponent: () => import('./finance/payroll').then((m) => m.PayrollPage),
+    title: 'ChefShop · Payroll',
+  },
+  {
+    path: 'events',
+    canActivate: [roleGuard],
+    data: { roles: ['admin', 'accounting'] },
+    loadComponent: () => import('./finance/events').then((m) => m.EventsPage),
+    title: 'ChefShop · Catering events',
+  },
+  {
+    path: 'profitability',
+    canActivate: [roleGuard],
+    data: { roles: ['admin', 'accounting'] },
+    loadComponent: () => import('./finance/operations').then((m) => m.ProfitabilityPage),
+    title: 'ChefShop · Product profitability',
+  },
+  {
+    path: 'admin',
+    canActivate: [roleGuard],
+    data: { roles: ['admin'] },
+    loadComponent: () => import('./account/admin').then((m) => m.AdminPage),
+    title: 'ChefShop · Users',
+  },
+  {
+    path: 'guide',
+    loadComponent: () => import('./guide').then((m) => m.GuidePage),
+    title: 'ChefShop · Workflow guide',
+  },
+  {
+    path: 'forbidden',
+    loadComponent: () => import('./guide').then((m) => m.ForbiddenPage),
+    title: 'ChefShop · Access restricted',
+  },
+  {
+    path: '**',
+    loadComponent: () => import('./guide').then((m) => m.NotFoundPage),
+    title: 'ChefShop · Page not found',
+  },
+];

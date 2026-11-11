@@ -1,0 +1,277 @@
+[
+  {
+    "key": "ful",
+    "status": 200,
+    "body": {
+      "success": true,
+      "imageHash": "70a16d7acce5296d7d865207c9fe652fa27182af",
+      "sizeBytes": 1924732,
+      "contentType": "image/png",
+      "placedOnNodeId": "59:782"
+    }
+  },
+  {
+    "key": "hawawshi",
+    "status": 200,
+    "body": {
+      "success": true,
+      "imageHash": "2d4a743190dbd1f84f1b0edcd17f02c5deb9f510",
+      "sizeBytes": 2097348,
+      "contentType": "image/png",
+      "placedOnNodeId": "59:783"
+    }
+  },
+  {
+    "key": "thyme",
+    "status": 200,
+    "body": {
+      "success": true,
+      "imageHash": "2779e06d6fb768befd8c1fd409089016a5b55c00",
+      "sizeBytes": 1359253,
+      "contentType": "image/png",
+      "placedOnNodeId": "59:780"
+    }
+  },
+  {
+    "key": "rosemary",
+    "status": 200,
+    "body": {
+      "success": true,
+      "imageHash": "66d4116cfbe014144345f417522adb3b02cf92eb",
+      "sizeBytes": 1578635,
+      "contentType": "image/png",
+      "placedOnNodeId": "59:784"
+    }
+  },
+  {
+    "key": "liver",
+    "status": 200,
+    "body": {
+      "success": true,
+      "imageHash": "e16d78e247ee059c08a09c180eddeaeeca08062d",
+      "sizeBytes": 1868472,
+      "contentType": "image/png",
+      "placedOnNodeId": "59:785"
+    }
+  },
+  {
+    "key": "paprika",
+    "status": 200,
+    "body": {
+      "success": true,
+      "imageHash": "3cba490c4727fc8eb6cae89b3c2d6f07137e1150",
+      "sizeBytes": 1625109,
+      "contentType": "image/png",
+      "placedOnNodeId": "59:781"
+    }
+  },
+  {
+    "key": "spanakopita",
+    "status": 200,
+    "body": {
+      "success": true,
+      "imageHash": "73d2f1c205bbae4e270d453f04e7735f901da747",
+      "sizeBytes": 1773240,
+      "contentType": "image/png",
+      "placedOnNodeId": "59:787"
+    }
+  },
+  {
+    "key": "gyro",
+    "status": 200,
+    "body": {
+      "success": true,
+      "imageHash": "e81f3ad5c6cbaf7a0769f0918e2d451b0c15fa06",
+      "sizeBytes": 2013708,
+      "contentType": "image/png",
+      "placedOnNodeId": "59:790"
+    }
+  },
+  {
+    "key": "cinnamon",
+    "status": 200,
+    "body": {
+      "success": true,
+      "imageHash": "5d6f604eaacb832c4b369e5c71dc31cf178b188d",
+      "sizeBytes": 1446415,
+      "contentType": "image/png",
+      "placedOnNodeId": "59:788"
+    }
+  },
+  {
+    "key": "knife",
+    "status": 200,
+    "body": {
+      "success": true,
+      "imageHash": "636f0204a181735d57f0f7c0a4098b16fd8e6e71",
+      "sizeBytes": 488304,
+      "contentType": "image/png",
+      "placedOnNodeId": "59:786"
+    }
+  },
+  {
+    "key": "halloumi",
+    "status": 200,
+    "body": {
+      "success": true,
+      "imageHash": "a26b4a0e137f0f4032af8d23a3e31f25165427ad",
+      "sizeBytes": 1976241,
+      "contentType": "image/png",
+      "placedOnNodeId": "59:794"
+    }
+  },
+  {
+    "key": "sumac",
+    "status": 200,
+    "body": {
+      "success": true,
+      "imageHash": "f679baaa2317905e9e42be63855afb5ed52bac96",
+      "sizeBytes": 1518600,
+      "contentType": "image/png",
+      "placedOnNodeId": "59:791"
+    }
+  },
+  {
+    "key": "board",
+    "status": 200,
+    "body": {
+      "success": true,
+      "imageHash": "2973d4938208e34fd2aab25500da11d892c92e06",
+      "sizeBytes": 1072611,
+      "contentType": "image/png",
+      "placedOnNodeId": "59:789"
+    }
+  },
+  {
+    "key": "mortar",
+    "status": 200,
+    "body": {
+      "success": true,
+      "imageHash": "3f4d200603e83a749c6df4598cfb78ffd38adcf8",
+      "sizeBytes": 1874360,
+      "contentType": "image/png",
+      "placedOnNodeId": "59:792"
+    }
+  },
+  {
+    "key": "wheel",
+    "status": 200,
+    "body": {
+      "success": true,
+      "imageHash": "dd5268a91d87600e5ca19ec19368ed527a3b4ba8",
+      "sizeBytes": 1224660,
+      "contentType": "image/png",
+      "placedOnNodeId": "59:796"
+    }
+  },
+  {
+    "key": "colander",
+    "status": 200,
+    "body": {
+      "success": true,
+      "imageHash": "2e94a90ed4d6917aef1441f576f34fd8e1b394b5",
+      "sizeBytes": 1419805,
+      "contentType": "image/png",
+      "placedOnNodeId": "59:793"
+    }
+  },
+  {
+    "key": "dukkah",
+    "status": 200,
+    "body": {
+      "success": true,
+      "imageHash": "b5600b9a6e820a800dbbceb921a729d9028ee37a",
+      "sizeBytes": 1434062,
+      "contentType": "image/png",
+      "placedOnNodeId": "59:800"
+    }
+  },
+  {
+    "key": "citrus",
+    "status": 200,
+    "body": {
+      "success": true,
+      "imageHash": "d5d33dfd0a93498d0c1b281247634becf82d12c2",
+      "sizeBytes": 759706,
+      "contentType": "image/png",
+      "placedOnNodeId": "59:795"
+    }
+  },
+  {
+    "key": "alfredo-explode",
+    "status": 200,
+    "body": {
+      "success": true,
+      "imageHash": "e609bdf69b95820a4f77ecd3ec5881b28706b447",
+      "sizeBytes": 2129498,
+      "contentType": "image/png",
+      "placedOnNodeId": "59:797"
+    }
+  },
+  {
+    "key": "ful-explode",
+    "status": 200,
+    "body": {
+      "success": true,
+      "imageHash": "e2cadde71d8a11059defe4b5cca6e00f53525338",
+      "sizeBytes": 2550079,
+      "contentType": "image/png",
+      "placedOnNodeId": "59:798"
+    }
+  },
+  {
+    "key": "hawawshi-explode",
+    "status": 200,
+    "body": {
+      "success": true,
+      "imageHash": "92eaf0ff9d2e3473e7d78535e04ff6e872bbcccf",
+      "sizeBytes": 2685941,
+      "contentType": "image/png",
+      "placedOnNodeId": "59:801"
+    }
+  },
+  {
+    "key": "liver-explode",
+    "status": 200,
+    "body": {
+      "success": true,
+      "imageHash": "aa6ee3c18704ce5c8f4d5a09baa20a56f59990cf",
+      "sizeBytes": 2595082,
+      "contentType": "image/png",
+      "placedOnNodeId": "59:799"
+    }
+  },
+  {
+    "key": "spanakopita-explode",
+    "status": 200,
+    "body": {
+      "success": true,
+      "imageHash": "934c4b0b553dc8a3eed92783da453e0d43b86039",
+      "sizeBytes": 2383545,
+      "contentType": "image/png",
+      "placedOnNodeId": "59:802"
+    }
+  },
+  {
+    "key": "gyro-explode",
+    "status": 200,
+    "body": {
+      "success": true,
+      "imageHash": "553c13c2d21e5eea012c60b97d676e70e27bfc31",
+      "sizeBytes": 2589150,
+      "contentType": "image/png",
+      "placedOnNodeId": "59:804"
+    }
+  },
+  {
+    "key": "halloumi-explode",
+    "status": 200,
+    "body": {
+      "success": true,
+      "imageHash": "d0a7a2ceb6847131caa54635c19853ba9cff417f",
+      "sizeBytes": 2789784,
+      "contentType": "image/png",
+      "placedOnNodeId": "59:803"
+    }
+  }
+]

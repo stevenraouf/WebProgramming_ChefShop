@@ -1,0 +1,18 @@
+{
+  "fileKey":"MPTpr6xUM7RwoMHfkYh8OV",
+  "activePreview":"115:2129",
+  "importStatus":"imported",
+  "activePreviewObservedInFigma":"Rendered meal layers and animated timeline values; no import or loading error",
+  "activePreviewSize":[402,874],
+  "nativeAnimationFamiliesUpdated":12,
+  "originalPhoneScreens":19,
+  "catalog":{"meals":12,"spices":12,"tools":12},
+  "nativeLoopEndpointCheck":"All 12 rendered opening and finished frames match",
+  "geometryPayloadsValidated":133,
+  "applicationInteractionChecks":["pause","Taameya reassembly","Greece filter","Souvlaki selection","native Still view"],
+  "interactionChecksScope":"Application logic checked before the flat replacement; replacement startup and looping checked afterward",
+  "supersededPreview":"94:2111; hidden archive",
+  "independentReplacementSessionCheck":"Not completed; secondary browser was minimized",
+  "nativeBackup":{"file":"ChefShop-v6-2026-11-08.fig","bytes":340326836},
+  "limitations":"Photo-derived relief surfaces with limited perspective, not volumetric food models or Unreal Engine rendering"
+}

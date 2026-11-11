@@ -1,0 +1,16 @@
+{
+  "fileKey": "MPTpr6xUM7RwoMHfkYh8OV",
+  "pageId": "0:1",
+  "status": "all-seven-images-uploaded-and-placed",
+  "format": "image-filled concept board frames",
+  "nodes": [
+    {"id":"12:529","file":"01-home-and-shop-final.png","title":"Home and Shop"},
+    {"id":"12:528","file":"07-shop-category-states.png","title":"Kitchen Tools and Spices shop states"},
+    {"id":"12:527","file":"02-meal-details.png","title":"Meal detail variants"},
+    {"id":"12:524","file":"03-linked-spice-and-tool.png","title":"Linked spice and tool details"},
+    {"id":"12:526","file":"04-cart-checkout-confirmation.png","title":"Cart, checkout and confirmation"},
+    {"id":"12:525","file":"05-academy-final.png","title":"Academy"},
+    {"id":"12:523","file":"06-customer-workflow.png","title":"Customer workflow"}
+  ],
+  "verification": "Every upload returned success=true and placedOnNodeId. New uploaded board names were also visible in the Figma desktop Layers panel. Existing design layers and user reference images were preserved."
+}
